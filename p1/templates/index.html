@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Button Click</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+
+    <style>
+        body {
+            background-color: #32282e;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #d2e079;
+            text-align: center;
+        }
+
+        form {
+            
+            margin: 0 auto;
+        }
+
+        button {
+            margin-top: 50px;
+            
+        }
+        button {
+            background-color: #addbca; /* Green */
+            border: none;
+            color: rgb(255, 255, 255);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: auto;
+}
+    </style>
+
+</head>
+<body>
+    
+        
+            <h1>Flask Button Click</h1>
+        
+        
+        <form  action="/run_script" method="post">
+            <button type="submit" name="script" value="script1">Run Script 1</button>
+            <button type="submit" name="script" value="script2">Run Script 2</button>
+            <button type="submit" name="script" value="script3">Run Script 3</button>
+        </form>
+    
+</body>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="bootstrap.min.js"></script>
+
+<!--Latest JQuery CDN Link -->
+<script src="bootstrap.bundle.js"></script>
+
+</html>
+
